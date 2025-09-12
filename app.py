@@ -68,6 +68,15 @@ def readiness_check():
         'hostname': socket.gethostname()
     })
 
+@app.route('/credit')
+def credit():
+    """Credit page route"""
+    return jsonify({
+        'Owner': 'Michael Grote',
+        'University': 'OAMK (HNU)'
+    })
+
+
 @app.route('/info')
 def info():
     """System information endpoint"""
