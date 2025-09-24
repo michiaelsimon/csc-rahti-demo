@@ -27,7 +27,7 @@ spec:
         # Remove runAsUser and fsGroup - let OpenShift assign them automatically
       containers:
       - name: csc-rahti-demo
-        image: image-registry.openshift-image-registry.svc:5000/my-demo-project/csc-rahti-demo:latest
+        image: image-registry.openshift-image-registry.svc:5000/week4/csc-rahti-demo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
