@@ -73,7 +73,7 @@ def credit():
     """Credit page route"""
     return jsonify({
         'Owner': 'Michael Grote',
-        'University': 'Guest at OAMK, Home University: HNU'
+        'University': 'Guest Student at OAMK, Home University: HNU'
     })
 
 
